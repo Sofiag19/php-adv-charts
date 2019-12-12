@@ -11,7 +11,7 @@
         <canvas id="myChart"></canvas>
       </div>
       <div class="wrapper">
-        <canvas id="Sells"></canvas>
+        <canvas id="Fatturato"></canvas>
       </div>
       <div class="wrapper">
         <canvas id="Torta"></canvas>

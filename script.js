@@ -50,7 +50,7 @@ function getData(){
 // STEP 2
 // GRAFICO LINEARE
 function printDataGraph1(type,data){
-  var ctx = document.getElementById('Sells').getContext('2d');
+  var ctx = document.getElementById('Fatturato').getContext('2d');
   var myChart = new Chart(ctx, {
     type: type,
     data: {
