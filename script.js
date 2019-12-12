@@ -6,6 +6,7 @@ function init(){
 
 };
 
+// STEP 1
 function printData(data){
   var ctx = document.getElementById('myChart').getContext('2d');
   var myChart= new Chart(ctx, {
@@ -46,6 +47,8 @@ function getData(){
 
 }
 
+// STEP 2
+// GRAFICO LINEARE
 function printDataGraph1(type,data){
   var ctx = document.getElementById('Sells').getContext('2d');
   var myChart = new Chart(ctx, {
@@ -89,6 +92,7 @@ function getDataGraph1(){
 
 }
 
+// GRAFICO TORTA
 function printDataGraph2(type,data,labels){
   var ctx = document.getElementById('Torta').getContext('2d');
   var myChart = new Chart(ctx, {
