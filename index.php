@@ -3,15 +3,22 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Grafico Chart JS</title>
+    <title>Advanced Dashboard Charts</title>
   </head>
   <body>
     <div id="container">
-      <div id="wrapper">
+      <div class="wrapper">
         <canvas id="myChart"></canvas>
+      </div>
+      <div class="wrapper">
+        <canvas id="Sells"></canvas>
+      </div>
+      <div class="wrapper">
+        <canvas id="Torta"></canvas>
       </div>
     </div>
 
+    <!-- CDN Chart -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <!-- -CDN 3.3.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
