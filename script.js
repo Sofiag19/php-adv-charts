@@ -80,7 +80,6 @@ function getDataGraph1(){
     url: "php/getFatturato.php",
     method:'GET',
     success: function(data){
-      console.log('data',data);
       var type = data.type;
       var datiVendita = data.data;
       printDataGraph1(type,datiVendita);
@@ -134,7 +133,6 @@ function getDataGraph2(){
     url: "php/getVenditeVenditore.php",
     method:'GET',
     success: function(data){
-      console.log('data',data);
       var type = data.type;
       var datiVendita = data.data;
       var venditore = Object.keys(datiVendita);
