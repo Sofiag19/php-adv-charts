@@ -55,6 +55,9 @@ function printDataGraph1(type,data){
         datasets: [{
             label: 'Vendite',
             data: data,
+            backgroundColor:'rgba(255, 153, 0, 0.5)',
+            borderColor:'rgba(255, 153, 0)',
+            borderWidth: 1
         }]
     },
     options: {
@@ -95,6 +98,19 @@ function printDataGraph2(type,data,labels){
         datasets: [{
             label: 'Vendite',
             data: data,
+            backgroundColor:[
+              'rgb(233, 68, 68,0.5)',
+              'rgba(9, 151, 221, 0.5)',
+              'rgb(201, 179, 30,0.5)',
+              'rgb(186, 177, 235, 0.5)'
+            ],
+            borderColor:[
+              'rgb(233, 68, 68)',
+              'rgba(9, 151, 221)',
+              'rgb(201, 179, 30',
+              'rgb(186, 177, 235)'
+            ],
+            borderWidth: 1
         }]
     },
     options: {
