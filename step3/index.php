@@ -6,6 +6,12 @@
     <title>Advanced Dashboard Charts3</title>
   </head>
   <body>
+    <header>
+    Scegli il livello a cui appartieni
+      <button type="button" id="guest">guest</button>
+      <button type="button" id="employee">employee</button>
+      <button type="button" id="clevel">clevel</button>
+    </header>
     <div id="container">
       <div class="wrapper">
         <canvas id="fatturato"></canvas>
@@ -27,6 +33,6 @@
     <!-- -CDN LINGUA ITALIANA -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/it.js"></script>
     <!-- script -->
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script3.js" charset="utf-8"></script>
   </body>
 </html>
