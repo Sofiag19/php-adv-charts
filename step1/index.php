@@ -10,12 +10,6 @@
       <div class="wrapper">
         <canvas id="myChart"></canvas>
       </div>
-      <div class="wrapper">
-        <canvas id="Fatturato"></canvas>
-      </div>
-      <div class="wrapper">
-        <canvas id="Torta"></canvas>
-      </div>
     </div>
 
     <!-- CDN Chart -->
