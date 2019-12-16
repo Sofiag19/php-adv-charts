@@ -92,9 +92,9 @@ function getData(){
   $.ajax({
     url: 'php/getData3.php' ,
     method:'GET',
-    // data : {
-    //   level : level
-    // },
+    data : {
+      level : level
+    },
     success: function(data){
       console.log(data);
       printGraphs(data);
