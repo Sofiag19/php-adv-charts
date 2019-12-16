@@ -85,6 +85,7 @@ function getLevelParameter(){
   var urlParams = new URLSearchParams(window.location.search);
   var levelParam = urlParams.get('level');
   console.log(levelParam);
+  return levelParam
 }
 
 function getData(){
